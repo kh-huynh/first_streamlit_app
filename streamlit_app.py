@@ -77,6 +77,6 @@ if streamlit.button('Add Fruit'):
     
     #streamlit.write(back_from_add)
 
-my_cnx.close()
+#my_cnx.close()
 streamlit.stop()
 
