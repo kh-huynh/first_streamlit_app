@@ -73,7 +73,7 @@ if streamlit.button('Get Fruit List'):
 if streamlit.button('Add Fruit'):
     fruit_choice_add = streamlit.text_input('What fruit would you like to add?','jackfruit')
     streamlit.text("res:"+fruit_choice_add)
-    back_from_add = insert_row_snowflake(fruit_choice_add)
+    #back_from_add = insert_row_snowflake(fruit_choice_add)
     
     #streamlit.write(back_from_add)
 
